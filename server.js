@@ -23,7 +23,7 @@ const eventsController = require('./controllers/events_controller')
 app.use('/events', eventsController)
 
 const stagesController = require('./controllers/stage_controller')
-app.use('/stage', stagesController)
+app.use('/stages', stagesController)
 
 // LISTEN
 app.listen(process.env.PORT, () => {
